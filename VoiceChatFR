@@ -1,8 +1,6 @@
-wait(2)
+
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
 local Window = Library.CreateLib("Voicechat FR fucker by $ z#2945 & xHeptc", "Serpent")
-
-if game.PlaceId == 7959057987 then
 
 -- Principal
 local Main = Window:NewTab("Prinicpal")
