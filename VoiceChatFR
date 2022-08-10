@@ -1,4 +1,4 @@
-
+wait(2)
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
 local Window = Library.CreateLib("Voicechat FR fucker by $ z#2945 & xHeptc", "Serpent")
 
@@ -7,7 +7,7 @@ local Main = Window:NewTab("Prinicpal")
 local SectionPrincipal = Main:NewSection("Voicechat FR")
 
 
-SectionPrincipal:NewButton("Give sword", "Te fait apparaitre une épée histoire d'enculer les gens qui t'harcèle.", function()
+SectionPrincipal:NewButton("Give sword (PATCH)", "Te fait apparaitre une épée histoire d'enculer les gens qui t'harcèle.", function()
     
 
 local args = {
@@ -591,3 +591,14 @@ local args = {
 game:GetService("ReplicatedStorage").IsAFK:FireServer(unpack(args))
 
 end)
+
+SectionPrincipal:NewButton("LAG server (Bêta)", "En beta", function()
+    while true do
+        wait(0.01)
+    local args = {
+        [1] = true
+    }
+    
+    game:GetService("ReplicatedStorage").IsAFK:FireServer(unpack(args))
+end
+    end)
